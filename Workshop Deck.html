@@ -65,29 +65,136 @@
 </section>
 
 <!-- 02 — Hello / who's in the room -->
-<section data-label="02 مرحبا">
+<section data-label="02 مرحبا" data-reveal>
   <div class="frame center">
     <div class="stage-chip">مرحبا بيكم</div>
-    <div class="t-title" style="margin-top: 32px;">أنا مصعب الرشيد،<br><br><br>انتو منو؟</div>
-    <div class="grid-4" style="margin-top: 80px; width: 100%;">
-      <div class="card" style="border-top: 8px solid var(--primary-blue);">
-        <div class="t-mega brand" style="font-size: 120px;">🎓</div>
-        <div class="t-body-b" style="margin-top: 16px;">طلاب</div>
+    <div class="t-title" style="margin-top: 24px;">أنا اخوكم مصعب الرشيد</div>
+    
+    <!-- Presenter domain cards — wrapped for blur overlay -->
+    <div style="position: relative; width: 100%; margin-top: 40px;">
+    
+      <!-- Domain cards (steps 1–7 reveal, steps 8–14 cancel one-by-one) -->
+      <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 14px; width: 100%;">
+    
+    
+        <div class="card" style="position: relative; text-align: center; padding: 16px 10px; overflow: hidden;"
+          data-reveal-step="1 ">
+          <div style="font-size: 36px;">🎓</div>
+          <div style="font-size: 22px; font-weight: 700; margin-top: 8px;">أكاديميا</div>
+          <div style="font-size: 18px; opacity: 0.55; margin-top: 4px;">١٠+ سنة تدريس</div>
+          <div data-reveal-step="9"
+            style="position: absolute; inset: 0; background: linear-gradient(to bottom right, transparent calc(50% - 2px), rgba(220,38,38,0.85) calc(50% - 2px), rgba(220,38,38,0.85) calc(50% + 2px), transparent calc(50% + 2px)); display: flex; align-items: center; justify-content: center; z-index: 5; background-color: rgba(255,255,255,0.35);">
+            <span style="font-size: 36px;">🚫</span>
+          </div>
+        </div>
+    
+        <div class="card" style="position: relative; text-align: center; padding: 16px 10px; overflow: hidden;"
+          data-reveal-step="2">
+          <div style="font-size: 36px;">🏦</div>
+          <div style="font-size: 22px; font-weight: 700; margin-top: 8px;">مصارف</div>
+          <div style="font-size: 18px; opacity: 0.55; margin-top: 4px;">فينتك · بنوك</div>
+          <div data-reveal-step="8"
+            style="position: absolute; inset: 0; background: linear-gradient(to bottom right, transparent calc(50% - 2px), rgba(220,38,38,0.85) calc(50% - 2px), rgba(220,38,38,0.85) calc(50% + 2px), transparent calc(50% + 2px)); display: flex; align-items: center; justify-content: center; z-index: 5; background-color: rgba(255,255,255,0.35);">
+            <span style="font-size: 36px;">🚫</span>
+          </div>
+        </div>
+    
+        <div class="card" style="position: relative; text-align: center; padding: 16px 10px; overflow: hidden;"
+          data-reveal-step="3">
+          <div style="font-size: 36px;">🚀</div>
+          <div style="font-size: 22px; font-weight: 700; margin-top: 8px;">شركات ناشئة</div>
+          <div style="font-size: 18px; opacity: 0.55; margin-top: 4px;">نقل · لوجستيات · سلاسل توريد</div>
+          <div data-reveal-step="10"
+            style="position: absolute; inset: 0; background: linear-gradient(to bottom right, transparent calc(50% - 2px), rgba(220,38,38,0.85) calc(50% - 2px), rgba(220,38,38,0.85) calc(50% + 2px), transparent calc(50% + 2px)); display: flex; align-items: center; justify-content: center; z-index: 5; background-color: rgba(255,255,255,0.35);">
+            <span style="font-size: 36px;">🚫</span>
+          </div>
+        </div>
+    
+    
+        <div class="card" style="position: relative; text-align: center; padding: 16px 10px; overflow: hidden;"
+          data-reveal-step="4">
+          <div style="font-size: 36px;">📐</div>
+          <div style="font-size: 22px; font-weight: 700; margin-top: 8px;">معمارية</div>
+          <div style="font-size: 18px; opacity: 0.55; margin-top: 4px;">نظم · حلول تقنية</div>
+          <div data-reveal-step="12"
+            style="position: absolute; inset: 0; background: linear-gradient(to bottom right, transparent calc(50% - 2px), rgba(220,38,38,0.85) calc(50% - 2px), rgba(220,38,38,0.85) calc(50% + 2px), transparent calc(50% + 2px)); display: flex; align-items: center; justify-content: center; z-index: 5; background-color: rgba(255,255,255,0.35);">
+            <span style="font-size: 36px;">🚫</span>
+          </div>
+        </div>
+    
+        <div class="card" style="position: relative; text-align: center; padding: 16px 10px; overflow: hidden;"
+          data-reveal-step="5">
+          <div style="font-size: 36px;">🏛️</div>
+          <div style="font-size: 22px; font-weight: 700; margin-top: 8px;">حوكمة</div>
+          <div style="font-size: 18px; opacity: 0.55; margin-top: 4px;">سياسات · امتثال</div>
+          <div data-reveal-step="13"
+            style="position: absolute; inset: 0; background: linear-gradient(to bottom right, transparent calc(50% - 2px), rgba(220,38,38,0.85) calc(50% - 2px), rgba(220,38,38,0.85) calc(50% + 2px), transparent calc(50% + 2px)); display: flex; align-items: center; justify-content: center; z-index: 5; background-color: rgba(255,255,255,0.35);">
+            <span style="font-size: 36px;">🚫</span>
+          </div>
+        </div>
+    
+        <div class="card" style="position: relative; text-align: center; padding: 16px 10px; overflow: hidden;"
+          data-reveal-step="6">
+          <div style="font-size: 36px;">🏢</div>
+          <div style="font-size: 22px; font-weight: 700; margin-top: 8px;">مؤسسات</div>
+          <div style="font-size: 18px; opacity: 0.55; margin-top: 4px;">enterprise · B2B كبير</div>
+          <div data-reveal-step="14"
+            style="position: absolute; inset: 0; background: linear-gradient(to bottom right, transparent calc(50% - 2px), rgba(220,38,38,0.85) calc(50% - 2px), rgba(220,38,38,0.85) calc(50% + 2px), transparent calc(50% + 2px)); display: flex; align-items: center; justify-content: center; z-index: 5; background-color: rgba(255,255,255,0.35);">
+            <span style="font-size: 36px;">🚫</span>
+          </div>
+        </div>
+    
+        <div class="card" style="position: relative; text-align: center; padding: 16px 10px; overflow: hidden;"
+          data-reveal-step="7">
+          <div style="font-size: 36px;">🤖</div>
+          <div style="font-size: 22px; font-weight: 700; margin-top: 8px;">ذكاء اصطناعي</div>
+          <div style="font-size: 18px; opacity: 0.55; margin-top: 4px;">LLMs · Vision · NLP</div>
+          <div data-reveal-step="11"
+            style="position: absolute; inset: 0; background: linear-gradient(to bottom right, transparent calc(50% - 2px), rgba(220,38,38,0.85) calc(50% - 2px), rgba(220,38,38,0.85) calc(50% + 2px), transparent calc(50% + 2px)); display: flex; align-items: center; justify-content: center; z-index: 5; background-color: rgba(255,255,255,0.35);">
+            <span style="font-size: 36px;">🚫</span>
+          </div>
+        </div>
+    
+    
+      </div>
+    
+      <!-- Step 15: blur overlay — covers only the domain cards -->
+      <div data-reveal-step="15"
+        style="position: absolute; inset: -12px; border-radius: 20px;
+                                                                                                       background: rgba(255,255,255,0.6); backdrop-filter: blur(14px);
+                                                                                                       display: flex; flex-direction: column; align-items: center; justify-content: center;
+                                                                                                       z-index: 10; text-align: center; padding: 32px;">
+        <div style="font-size: 64px; font-weight: 900; color: var(--deep-navy); line-height: 1.3;">
+          مجرّب من الطراز الأول
+        </div>
+        <div style="font-size: 46px; font-weight: 700; color: var(--tomato-red); margin-top: 16px; line-height: 1.4;">
+          بمعدل فشل أكبر من معدل النجاح
+        </div>
+      </div>
+    
+    </div>
+    
+    <!-- Audience grid -->
+    <div class="t-overline brand" style="margin-top: 48px; letter-spacing: 0.15em;" data-reveal-step="16">انتو منو؟</div>
+    <div class="grid-4" style="margin-top: 24px; width: 100%;">
+      <div class="card" style="border-top: 8px solid var(--primary-blue);" data-reveal-step="17">
+        <div class="t-mega brand" style="font-size: 80px;">🎓</div>
+        <div class="t-body-b" style="margin-top: 12px;">طلاب</div>
         <div class="t-small muted">جامعة / ثانوي</div>
       </div>
-      <div class="card" style="border-top: 8px solid var(--teal);">
-        <div class="t-mega" style="font-size: 120px; color: var(--teal);">💼</div>
-        <div class="t-body-b" style="margin-top: 16px;">موظفين</div>
+      <div class="card" style="border-top: 8px solid var(--teal);" data-reveal-step="18">
+        <div class="t-mega" style="font-size: 80px; color: var(--teal);">💼</div>
+        <div class="t-body-b" style="margin-top: 12px;">موظفين</div>
         <div class="t-small muted">شركات / مؤسسات</div>
       </div>
-      <div class="card" style="border-top: 8px solid var(--warm-yellow);">
-        <div class="t-mega" style="font-size: 120px; color: var(--golden-amber);">🚀</div>
-        <div class="t-body-b" style="margin-top: 16px;">رواد أعمال</div>
+      <div class="card" style="border-top: 8px solid var(--warm-yellow);" data-reveal-step="19">
+        <div class="t-mega" style="font-size: 80px; color: var(--golden-amber);">🚀</div>
+        <div class="t-body-b" style="margin-top: 12px;">رواد أعمال</div>
         <div class="t-small muted">عندك مشروع/فكرة</div>
       </div>
-      <div class="card" style="border-top: 8px solid var(--magenta-pink);">
-        <div class="t-mega" style="font-size: 120px; color: var(--magenta-pink);">✨</div>
-        <div class="t-body-b" style="margin-top: 16px;">فضوليين</div>
+      <div class="card" style="border-top: 8px solid var(--magenta-pink);" data-reveal-step="20">
+        <div class="t-mega" style="font-size: 80px; color: var(--magenta-pink);">✨</div>
+        <div class="t-body-b" style="margin-top: 12px;">فضوليين</div>
         <div class="t-small muted">جيت تستكشف بس</div>
       </div>
     </div>
@@ -216,30 +323,32 @@
 </section>
 
 <!-- 06 — Definition of Innovation -->
-<section data-label="06 تعريف الابتكار">
+<section data-label="06 تعريف الابتكار" data-reveal>
   <div class="frame center">
     <div class="t-overline brand">التعريف</div>
     <div class="t-title" style="margin-top: 16px;">الابتكار أكتر من مجرد فكرة</div>
     <div style="margin-top: 80px; display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 32px; align-items: center;">
-      <div style="background: var(--blue-50); padding: 48px 32px; border-radius: 24px; text-align: center;">
+      <div style="background: var(--blue-50); padding: 48px 32px; border-radius: 24px; text-align: center;"
+        data-reveal-step="1">
         <div class="t-mega" style="font-size: 120px;">💡</div>
         <div class="t-body-b" style="margin-top: 16px;">فكرة</div>
-        <div class="t-small muted">في رأسك بس</div>
+        <div class="t-small muted">اتولدت في رأسك </div>
       </div>
       <div class="t-mega" style="font-size: 100px; color: var(--gray-400);">+</div>
-      <div style="background: var(--blue-50); padding: 48px 32px; border-radius: 24px; text-align: center;">
+      <div style="background: var(--blue-50); padding: 48px 32px; border-radius: 24px; text-align: center;"
+        data-reveal-step="2">
         <div class="t-mega" style="font-size: 120px;">🛠️</div>
         <div class="t-body-b" style="margin-top: 16px;">تطبيق</div>
         <div class="t-small muted">طلعتها للنور</div>
       </div>
       <div class="t-mega" style="font-size: 100px; color: var(--gray-400);">+</div>
-      <div style="background: var(--teal); padding: 48px 32px; border-radius: 24px; text-align: center;">
+      <div style="background: var(--teal); padding: 48px 32px; border-radius: 24px; text-align: center;" data-reveal-step="3">
         <div class="t-mega" style="font-size: 120px;">🎯</div>
         <div class="t-body-b" style="margin-top: 16px;">قيمة</div>
         <div class="t-small">حلّت مشكلة لزول</div>
       </div>
     </div>
-    <div class="t-subtitle center-text" style="margin-top: 64px; width: 100%; font-weight: 700;">
+    <div class="t-subtitle center-text" style="margin-top: 64px; width: 100%; font-weight: 700;" data-reveal-step="4">
       الابتكار = <span class="brand">فكرة + تطبيق + أثر</span>
     </div>
   </div>
@@ -251,25 +360,41 @@
     <div class="t-overline yellow-text">خرافات لازم نكسرها</div>
     <div class="t-title white-text" style="margin-top: 16px;">٣ كذبات سمعناها كتير</div>
     <div class="grid-3" style="margin-top: 80px;">
-      <div style="background: rgba(255,255,255,0.06); padding: 44px; border-radius: 24px; border: 2px solid rgba(255,255,255,0.12);">
+      <div
+        style="background: rgba(255,255,255,0.06); padding: 44px; border-radius: 24px; border: 2px solid rgba(255,255,255,0.12);"
+        data-reveal-step="1">
         <div style="font-size: 72px;">❌</div>
         <div class="t-h2 white-text" style="margin-top: 24px; text-decoration: line-through; opacity: 0.6;">الابتكار = تكنولوجيا</div>
-        <div class="t-body-b yellow-text" style="margin-top: 28px;">✓ الواقع</div>
-        <div class="t-small white-text" style="margin-top: 12px; opacity: 0.85;">الابتكار في طريقة، خدمة، تجربة، حتى في طريقة بيع الفول.</div>
+        <div data-reveal-step="2">
+          <div class="t-body-b yellow-text" style="margin-top: 28px;">✓ الواقع</div>
+          <div class="t-small white-text" style="margin-top: 12px; opacity: 0.85;">الابتكار في طريقة عرض، تقديم خدمة، تحسين تجربة،
+            حتى في طريقة
+            بيع الفول.</div>
+          </div>
       </div>
-      <div style="background: rgba(255,255,255,0.06); padding: 44px; border-radius: 24px; border: 2px solid rgba(255,255,255,0.12);">
+      <div
+        style="background: rgba(255,255,255,0.06); padding: 44px; border-radius: 24px; border: 2px solid rgba(255,255,255,0.12);"
+        data-reveal-step="3">
         <div style="font-size: 72px;">❌</div>
         <div class="t-h2 white-text" style="margin-top: 24px; text-decoration: line-through; opacity: 0.6;">لازم يكون شي ضخم</div>
-        <div class="t-body-b yellow-text" style="margin-top: 28px;">✓ الواقع</div>
-        <div class="t-small white-text" style="margin-top: 12px; opacity: 0.85;">أصغر تحسين متكرر يقلب الصناعة. شفت قشة العصير الجديدة؟</div>
+        <div data-reveal-step="4">
+          <div class="t-body-b yellow-text" style="margin-top: 28px;">✓ الواقع</div>
+          <div class="t-small white-text" style="margin-top: 12px; opacity: 0.85;">أصغر تحسين متكرر ممكن يقلب صناعة كامله.
+            الجديدة؟</div>
+          </div>
       </div>
-      <div style="background: rgba(255,255,255,0.06); padding: 44px; border-radius: 24px; border: 2px solid rgba(255,255,255,0.12);">
+      <div
+        style="background: rgba(255,255,255,0.06); padding: 44px; border-radius: 24px; border: 2px solid rgba(255,255,255,0.12);"
+        data-reveal-step="5">
         <div style="font-size: 72px;">❌</div>
         <div class="t-h2 white-text" style="margin-top: 24px; text-decoration: line-through; opacity: 0.6;">المبتكر عبقري</div>
-        <div class="t-body-b yellow-text" style="margin-top: 28px;">✓ الواقع</div>
-        <div class="t-small white-text" style="margin-top: 12px; opacity: 0.85;">المبتكر فضولي وصبور. الذكاء حاجة، الفضول حاجة تانية أهم.</div>
-      </div>
-    </div>
+        <div data-reveal-step="6">
+          <div class="t-body-b yellow-text" style="margin-top: 28px;">✓ الواقع</div>
+          <div class="t-small white-text" style="margin-top: 12px; opacity: 0.85;">المبتكر فضولي وصبور. الذكاء حاجة، الفضول حاجة
+            تانية أهم.</div>
+          </div>
+          </div>
+          </div>
   </div>
 </section>
 
@@ -277,48 +402,50 @@
 <section data-label="08 مقولة - الناس عايزة الحفرة" class="bg-yellow">
   <div class="frame middle">
     <div class="t-display navy-text" style="font-size: 130px; line-height: 1.1;">
-      «الناس ما عايزة<br>مثقاب ٦ ملم...<br><span style="color: var(--tomato-red);">عايزة حفرة ٦ ملم.»</span>
+      «الناس ما عايزة<br>حفارة (drill)<br><span style="color: var(--tomato-red);">عايزة حفرة.»</span>
     </div>
     <div class="t-subtitle" style="margin-top: 56px; font-weight: 700;">— ثيودور ليفيت، هارفارد</div>
     <div class="t-body" style="margin-top: 40px; max-width: 1400px;">
-      وحتى الحفرة ما هدفها — هدفها الصورة المعلّقة في الحيطة. لما تفكّر، انزل خطوة لي تحت: <strong>شنو الزول فعلاً عايز يعمل؟</strong>
+      وحتى الحفرة ما هدفها — هدفها الصورة المعلّقة في الحيطة. لما تفكّر، انزل خطوة لي تحت: <strong> الزول فعلاً عايز يعمل شنو
+        ؟
+      </strong>
     </div>
   </div>
 </section>
 
 <!-- 09 — What is Design Thinking -->
-<section data-label="09 شنو التفكير التصميمي">
+<section data-label="09 شنو التفكير التصميمي" data-reveal>
   <div class="frame center">
     <div class="stage-chip">التعريف الأساسي</div>
     <div class="t-title" style="margin-top: 32px;">التفكير التصميمي</div>
-    <div class="t-subtitle" style="margin-top: 24px; max-width: 1500px;">
+    <div class="t-subtitle" style="margin-top: 24px; max-width: 1500px;" data-reveal-step="1">
       منهج لحل المشاكل، يبدأ من <span class="brand" style="font-weight: 800;">الإنسان</span>،
       يجرّب بسرعة، ويتعلّم من <span class="brand" style="font-weight: 800;">الفشل</span>.
     </div>
     <div class="row" style="margin-top: 80px; gap: 24px;">
-      <div style="background: var(--blue-50); padding: 28px 36px; border-radius: 16px;">
+      <div style="background: var(--blue-50); padding: 28px 36px; border-radius: 16px;" data-reveal-step="2">
         <div class="t-overline brand">ليس</div>
         <div class="t-body-b" style="margin-top: 12px;">حكر على المصممين</div>
       </div>
-      <div style="background: var(--blue-50); padding: 28px 36px; border-radius: 16px;">
+      <div style="background: var(--blue-50); padding: 28px 36px; border-radius: 16px;" data-reveal-step="3">
         <div class="t-overline brand">ليس</div>
-        <div class="t-body-b" style="margin-top: 12px;">عملية رومانسية</div>
+        <div class="t-body-b" style="margin-top: 12px;">عملية خيالية بتتعمل في الدماغ</div>
       </div>
-      <div style="background: var(--blue-50); padding: 28px 36px; border-radius: 16px;">
+      <div style="background: var(--blue-50); padding: 28px 36px; border-radius: 16px;" data-reveal-step="4">
         <div class="t-overline brand">ليس</div>
         <div class="t-body-b" style="margin-top: 12px;">وصفة سحرية</div>
       </div>
     </div>
     <div class="row" style="margin-top: 24px; gap: 24px;">
-      <div style="background: var(--deep-navy); color: white; padding: 28px 36px; border-radius: 16px;">
+      <div style="background: var(--deep-navy); color: white; padding: 28px 36px; border-radius: 16px;" data-reveal-step="5">
         <div class="t-overline yellow-text">هو</div>
         <div class="t-body-b" style="margin-top: 12px; color: white;">طريقة تفكير لأي زول</div>
       </div>
-      <div style="background: var(--deep-navy); color: white; padding: 28px 36px; border-radius: 16px;">
+      <div style="background: var(--deep-navy); color: white; padding: 28px 36px; border-radius: 16px;" data-reveal-step="6">
         <div class="t-overline yellow-text">هو</div>
         <div class="t-body-b" style="margin-top: 12px; color: white;">عمل ميداني وتجربة</div>
       </div>
-      <div style="background: var(--deep-navy); color: white; padding: 28px 36px; border-radius: 16px;">
+      <div style="background: var(--deep-navy); color: white; padding: 28px 36px; border-radius: 16px;" data-reveal-step="7">
         <div class="t-overline yellow-text">هو</div>
         <div class="t-body-b" style="margin-top: 12px; color: white;">عضلة بتقوى بالتمرين</div>
       </div>
@@ -329,26 +456,27 @@
 <!-- 10 — Why care (numbers) -->
 <section data-label="10 ليه نهتم - الأرقام" class="bg-blue-tint" data-reveal>
   <div class="frame center">
-    <div class="t-overline brand">ليه نهتم؟</div>
-    <div class="t-title" style="margin-top: 16px;">الأرقام بتحكي</div>
+    <div class="t-overline brand">ليه مهتمين</div>
+    <div class="t-title" style="margin-top: 16px;">الأرقام بتحكي وخير برهان</div>
     <div class="grid-3" style="margin-top: 80px; width: 100%;">
-      <div style="text-align: center;">
+      <div style="text-align: center;" data-reveal-step="1">
         <div class="t-mega brand" style="font-size: 200px;">٢×</div>
         <div class="t-body-b" style="margin-top: 16px;">نمو أسرع</div>
         <div class="t-small muted">للشركات اللي تطبّق<br>(McKinsey 2018)</div>
       </div>
-      <div style="text-align: center;">
+      <div style="text-align: center;" data-reveal-step="2">
         <div class="t-mega" style="font-size: 200px; color: var(--teal);">٣٢٪</div>
         <div class="t-body-b" style="margin-top: 16px;">إيرادات أعلى</div>
         <div class="t-small muted">من المنافسين<br>(Design Value Index)</div>
       </div>
-      <div style="text-align: center;">
+      <div style="text-align: center;" data-reveal-step="3">
         <div class="t-mega" style="font-size: 200px; color: var(--magenta-pink);">٧١٪</div>
         <div class="t-body-b" style="margin-top: 16px;">قياديين يقولوا</div>
         <div class="t-small muted">إنه غيّر ثقافة شركتهم<br>(Forrester)</div>
       </div>
     </div>
-    <div class="t-body" style="margin-top: 64px; font-weight: 600;">لكن الأهم: <span class="brand">شغلك يبقى ليه معنى</span> — لأنك بتحل مشكلة لزول حقيقي.</div>
+    <div class="t-body" style="margin-top: 64px; font-weight: 600;" data-reveal-step="4">لكن الأهم: <span class="brand">شغلك
+        يبقى ليه معنى</span> — لأنك بتحل مشكلة لزول حقيقي.</div>
   </div>
 </section>
 
@@ -358,36 +486,102 @@
     <div class="t-overline brand">الإطار</div>
     <div class="t-title" style="margin-top: 16px;">٥ مراحل · IDEO / d.school</div>
     <div class="grid-5" style="margin-top: 80px; gap: 16px;">
-      <div style="background: var(--blue-50); border-radius: 24px; padding: 32px 24px; text-align: center;">
+      <div style="background: var(--blue-50); border-radius: 24px; padding: 32px 24px; text-align: center;"
+        data-reveal-step="1">
         <div class="t-mega brand" style="font-size: 90px;">١</div>
         <div class="t-body-b" style="margin-top: 16px;">التعاطف</div>
         <div class="t-small muted" style="margin-top: 8px; direction: ltr;">Empathize</div>
       </div>
-      <div style="background: var(--blue-100); border-radius: 24px; padding: 32px 24px; text-align: center;">
+      <div style="background: var(--blue-100); border-radius: 24px; padding: 32px 24px; text-align: center;"
+        data-reveal-step="2">
         <div class="t-mega brand" style="font-size: 90px;">٢</div>
         <div class="t-body-b" style="margin-top: 16px;">التعريف</div>
         <div class="t-small muted" style="margin-top: 8px; direction: ltr;">Define</div>
       </div>
-      <div style="background: #FFF7B0; border-radius: 24px; padding: 32px 24px; text-align: center;">
+      <div style="background: #FFF7B0; border-radius: 24px; padding: 32px 24px; text-align: center;" data-reveal-step="3">
         <div class="t-mega" style="font-size: 90px;">٣</div>
         <div class="t-body-b" style="margin-top: 16px;">الإبداع</div>
         <div class="t-small muted" style="margin-top: 8px; direction: ltr;">Ideate</div>
       </div>
-      <div style="background: #B8F0CB; border-radius: 24px; padding: 32px 24px; text-align: center;">
+      <div style="background: #B8F0CB; border-radius: 24px; padding: 32px 24px; text-align: center;" data-reveal-step="4">
         <div class="t-mega" style="font-size: 90px;">٤</div>
         <div class="t-body-b" style="margin-top: 16px;">النموذج</div>
         <div class="t-small muted" style="margin-top: 8px; direction: ltr;">Prototype</div>
       </div>
-      <div style="background: var(--teal); border-radius: 24px; padding: 32px 24px; text-align: center;">
+      <div style="background: var(--teal); border-radius: 24px; padding: 32px 24px; text-align: center;" data-reveal-step="5">
         <div class="t-mega" style="font-size: 90px;">٥</div>
         <div class="t-body-b" style="margin-top: 16px;">الاختبار</div>
         <div class="t-small muted" style="margin-top: 8px; direction: ltr;">Test</div>
       </div>
     </div>
-    <div class="row" style="margin-top: 56px; justify-content: center; gap: 16px;">
+    <div class="row" style="margin-top: 56px; justify-content: center; gap: 16px;" data-reveal-step="6">
       <div style="font-size: 36px;">🔄</div>
       <div class="t-body-b">ما هي خط مستقيم — هي حلقة. ترجع لأي مرحلة في أي وقت.</div>
     </div>
+  </div>
+</section>
+
+<!-- 11C — IDEO Three Spaces wave diagram -->
+<section data-label="11C الفضاءات الثلاثة" class="bg-cream">
+  <div class="frame center" style="padding-top: 40px; padding-bottom: 40px;">
+    <div class="t-overline brand" style="margin-bottom: 28px;">نموذج IDEO · الفضاءات الثلاثة</div>
+    <svg viewBox="0 0 1200 580" xmlns="http://www.w3.org/2000/svg"
+      style="width: 100%; max-width: 1440px; height: auto; display: block;" font-family="Cairo, Almarai, sans-serif">
+      <defs>
+        <marker id="m-dn" markerWidth="10" markerHeight="8" refX="5" refY="8" orient="auto">
+          <polygon points="0,0 5,8 10,0" fill="#222" />
+        </marker>
+        <marker id="m-up" markerWidth="10" markerHeight="8" refX="5" refY="0" orient="auto">
+          <polygon points="0,8 5,0 10,8" fill="#222" />
+        </marker>
+      </defs>
+
+      <!-- top axis labels: y=28 -->
+      <text x="200" y="28" text-anchor="middle" font-size="22" fill="#aaa">استكشاف معمق</text>
+      <text x="1000" y="28" text-anchor="middle" font-size="22" fill="#aaa">تقديم القيمة</text>
+
+      <!-- main wave: peaks at x=200 & x=600 (y=100), valley at x=400 (y=265) -->
+      <path d="M0,270
+               C 55,270  145,100  200,100
+               C 255,100  345,265  400,265
+               C 455,265  545,100  600,100
+               C 655,100  745,225  800,225
+               C 855,225  950,180  1000,175
+               C 1060,175 1150,195 1200,200" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" />
+
+      <!-- dashed inverse wave -->
+      <path d="M0,295
+               C 55,295  145,430  200,430
+               C 255,430  345,295  400,295
+               C 455,295  545,430  600,430
+               C 655,430  745,355  800,355
+               C 855,355  950,395  1000,398
+               C 1060,398 1150,382 1200,380" fill="none" stroke="#ccc" stroke-width="3" stroke-linecap="round"
+        stroke-dasharray="11 7" />
+
+      <!-- dividers at equal thirds: x=400, x=800 -->
+      <line x1="400" y1="44" x2="400" y2="445" stroke="#ccc" stroke-width="1.5" stroke-dasharray="7 5" />
+      <line x1="800" y1="44" x2="800" y2="445" stroke="#ccc" stroke-width="1.5" stroke-dasharray="7 5" />
+
+      <!-- arrows in valley at x=400 (wave y≈265), placed y=115 to y=258 — clear of wave -->
+      <line x1="378" y1="115" x2="378" y2="256" stroke="#222" stroke-width="2.5" marker-end="url(#m-dn)" />
+      <line x1="422" y1="256" x2="422" y2="115" stroke="#222" stroke-width="2.5" marker-end="url(#m-up)" />
+      <text x="440" y="148" text-anchor="start" font-size="22" fill="#222">تقطير الأفكار</text>
+      <text x="440" y="228" text-anchor="start" font-size="22" fill="#222">توسيع الآفاق</text>
+
+      <!-- axis step labels: y=455 -->
+      <text x="100" y="455" text-anchor="middle" font-size="20" fill="#777">تحدي التصميم</text>
+      <text x="310" y="455" text-anchor="middle" font-size="20" fill="#777">تحليل جذري</text>
+      <text x="500" y="455" text-anchor="middle" font-size="20" fill="#777">ابتكار حلول</text>
+      <text x="700" y="455" text-anchor="middle" font-size="20" fill="#777">بناء النماذج</text>
+      <text x="875" y="455" text-anchor="middle" font-size="20" fill="#777">تجربة واختبار</text>
+      <text x="1100" y="455" text-anchor="middle" font-size="20" fill="#777">تطوير مستمر</text>
+
+      <!-- phase names: y=520 -->
+      <text x="200" y="520" text-anchor="middle" font-size="34" font-weight="900" fill="#1a1a2e">مرحلة الإلهام</text>
+      <text x="600" y="520" text-anchor="middle" font-size="34" font-weight="900" fill="#1a1a2e">مرحلة الابتكار</text>
+      <text x="1000" y="520" text-anchor="middle" font-size="34" font-weight="900" fill="#1a1a2e">مرحلة التنفيذ</text>
+    </svg>
   </div>
 </section>
 
@@ -438,7 +632,8 @@
     </div>
     <div class="anim-up d4" style="margin-top: 40px; background: var(--deep-navy); color: white; border-radius: 20px; padding: 28px 40px;">
       <div class="t-body-b yellow-text">الفكرة الأساسية</div>
-      <div class="t-body" style="color: white; margin-top: 8px;">كل النماذج بتقول نفس الحاجة: <span class="yellow-text">افهم · ركّز · ابدع · ابني · اختبر</span> — ختار اللي يناسب مشروعك.</div>
+      <div class="t-body" style="color: white; margin-top: 8px;">كل النماذج بتقول نفس الحاجة: <span class="yellow-text">افهم
+          واتعاطف · ركّز ولاحظ · ابدع وفكر · ابني · اختبر · كرر</span> — ختار اللي يناسب مشروعك.</div>
     </div>
   </div>
 </section>
@@ -451,23 +646,23 @@
       ابدأ من<br>الإنسان.<br><span class="yellow-text">ما من الفكرة.</span>
     </div>
     <div class="t-subtitle" style="color: rgba(255,255,255,0.85); margin-top: 80px; max-width: 1400px; font-size: 38px;">
-      مين هم الناس؟ شنو يحتاجوا؟ شنو الإحباطات اليومية؟ كل حل ما يبدأ من هنا — مصيره الرف.
+      منو هم المستخدمين والمستفيدين؟ محتاجين شنوا؟ شنو الإحباطات اليومية ليهم؟ كل حل ما يبدأ من هنا — مصيره الرف.
     </div>
   </div>
 </section>
 
 <!-- 13 — Principle 2: fail early -->
-<section data-label="13 مبدأ 2 - الفشل البكير">
+<section data-label="13 مبدأ 2 - الفشل البكير" data-reveal>
   <div class="frame">
     <div class="t-overline brand">المبدأ الثاني</div>
-    <div class="t-title" style="margin-top: 16px;">افشل بدري · افشل برخص</div>
+    <div class="t-title" style="margin-top: 16px;">افشل بدري · افشل رخيص</div>
     <div class="grid-2" style="margin-top: 80px; gap: 56px;">
-      <div style="background: var(--gray-100); padding: 48px; border-radius: 24px;">
+      <div style="background: var(--gray-100); padding: 48px; border-radius: 24px;" data-reveal-step="1">
         <div class="t-overline" style="color: var(--tomato-red);">السيناريو الغلط</div>
         <div class="t-h2" style="margin-top: 16px;">سنة شغل +<br>ميزانية +<br>إطلاق +<br>اكتشفت إنه فاشل</div>
         <div class="t-body" style="margin-top: 32px; color: var(--tomato-red); font-weight: 700;">تكلفة الفشل: ضخمة 💀</div>
       </div>
-      <div style="background: var(--teal); padding: 48px; border-radius: 24px;">
+      <div style="background: var(--teal); padding: 48px; border-radius: 24px;" data-reveal-step="2">
         <div class="t-overline navy-text">السيناريو الصاح</div>
         <div class="t-h2" style="margin-top: 16px;">يومين رسم +<br>مقابلتين +<br>نموذج ورق +<br>اكتشفت إنه فاشل</div>
         <div class="t-body" style="margin-top: 32px; font-weight: 700;">تكلفة الفشل: شاي ✓</div>
@@ -533,12 +728,12 @@
       <div class="card" style="background: var(--blue-50); border: none;">
         <div style="font-size: 72px;">🎙️</div>
         <div class="t-body-b" style="margin-top: 24px;">المقابلات</div>
-        <div class="t-small muted" style="margin-top: 12px;">أسئلة مفتوحة. اسأل «ليه» ٥ مرات.</div>
+        <div class="t-small muted" style="margin-top: 12px;">أسئلة مفتوحة. سيناريوهات.</div>
       </div>
       <div class="card" style="background: #FFF7B0; border: none;">
         <div style="font-size: 72px;">👀</div>
         <div class="t-body-b" style="margin-top: 24px;">الملاحظة</div>
-        <div class="t-small muted" style="margin-top: 12px;">شوف الناس وهم يستخدموا. ما تسأل، شوف.</div>
+        <div class="t-small muted" style="margin-top: 12px;">شوف الناس وهم شغالين . ما تسأل، شوف.</div>
       </div>
       <div class="card" style="background: #B8F0CB; border: none;">
         <div style="font-size: 72px;">🚶🏽</div>
@@ -578,7 +773,7 @@
       <div style="background: white; border-radius: 20px; padding: 32px; border-right: 8px solid var(--golden-amber);">
         <div class="t-mega" style="font-size: 80px; font-weight: 800; color: var(--golden-amber);">When</div>
         <div class="t-body-b" style="margin-top: 12px;">متى؟</div>
-        <div class="t-small muted" style="margin-top: 8px;">متى بتحصل؟ في أي وقت من اليوم؟ كم مرة؟</div>
+        <div class="t-small muted" style="margin-top: 8px;">متين. بتحصل؟ في أي وقت من اليوم؟ كم مرة؟</div>
       </div>
       <div style="background: white; border-radius: 20px; padding: 32px; border-right: 8px solid var(--magenta-pink);">
         <div class="t-mega" style="font-size: 80px; font-weight: 800; color: var(--magenta-pink);">Where</div>
@@ -856,7 +1051,7 @@
       </div>
       <div style="background: white; padding: 40px; border-radius: 20px;">
         <div style="font-size: 84px;">🎭</div>
-        <div class="t-body-b" style="margin-top: 24px;">روايبهي</div>
+        <div class="t-body-b" style="margin-top: 24px;">روائي</div>
         <div class="t-small muted" style="margin-top: 12px;">مثّلوا التجربة بدور صغير.</div>
       </div>
       <div style="background: white; padding: 40px; border-radius: 20px;">
@@ -1197,14 +1392,15 @@
   transition: filter 0.3s, opacity 0.3s;
 }
 [data-reveal-item] {
-  opacity: 0;
-  transform: translateY(24px);
+  opacity: 0 !important;
+  transform: translateY(24px) !important;
+  animation: none !important; /* prevent entry-animation fill (anim-up etc.) from overriding hidden state */
   transition: opacity 480ms cubic-bezier(.2,.7,.2,1), transform 480ms cubic-bezier(.2,.7,.2,1);
   pointer-events: none;
 }
 [data-reveal-item].is-revealed {
-  opacity: 1;
-  transform: translateY(0);
+  opacity: 1 !important;
+  transform: translateY(0) !important;
   pointer-events: auto;
 }
 [data-reveal-item].is-pending {
@@ -1456,6 +1652,13 @@
   function findRevealItems(slide) {
     if (!slide) return [];
     if (!slide.hasAttribute('data-reveal')) return [];
+    // Manual ordering: elements with data-reveal-step="N" are explicit items (supports nested reveal)
+    const manual = Array.from(slide.querySelectorAll('[data-reveal-step]'));
+    if (manual.length > 0) {
+      return manual.slice().sort((a, b) =>
+        parseInt(a.getAttribute('data-reveal-step'), 10) - parseInt(b.getAttribute('data-reveal-step'), 10)
+      );
+    }
     // Custom selector via data-reveal-target, else default to first .grid-2/3/4/5/.row inside .frame
     const target = slide.getAttribute('data-reveal-target');
     let containers = [];
